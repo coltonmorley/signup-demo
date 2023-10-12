@@ -37,3 +37,27 @@ body{
     align-self: center;
     padding-top: 12px;
 }
+
+.row{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 14px;;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+label{
+    color: grey;
+    font-size: 12px;
+}
